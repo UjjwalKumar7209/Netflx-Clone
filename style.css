@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Noto Sans", sans-serif;
+    background-color: #303030;
+}
+
+section{
+    text-align: center;
+}
+
+.section-1{
+    background-image: url("assets/images/image-1.jpg");
+    background-position: center center;
+    background-size: 110rem;
+    position: relative;
+    height: 644px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opacity{
+    height: 644px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+.section-1_main{
+    position: absolute;
+    width: 98vw;
+}
+
+.section-1 nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 154px;
+}
+
+.lang{
+    color: white;
+    background: transparent;
+    border: 1.75px solid gray;
+    box-sizing: border-box;
+    padding: 6px 25px;
+    font-size: 17px;
+    border-radius: 6px;
+}
+
+.signIn{
+    background-color: rgb(229, 9, 20);
+    border: none;
+    color: white;
+    padding: 8.75px 13px;
+    font-size: 15px;
+    border-radius: 6px;
+    margin-left: 29px;
+    font-weight: bold;
+}
+
+.signIn:hover{
+    background-color: rgb(169 6 14);
+    cursor: pointer;
+}
+
+.start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 144px;
+    height: 43vh;
+    gap: 18px;
+}
+
+.start h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.start p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.start h3{
+    color: white;
+    font-size: 1.25rem;
+        font-weight: 400;
+        line-height: 1.5;
+}
+
+.getStart input{
+    border: 1.75px solid gray;
+    color: white;
+    background: transparent;
+    border-radius: 4px;
+    padding: 14px 20px;
+    height: 29px;
+    width: 296px;
+    font-size: 1rem;
+}
+
+.getStart button{
+    height: 60px;
+    width: 194px;
+    background-color: rgb(229, 9, 20);
+    border: none;
+    border-radius: 6px;
+    margin-left: 1px;
+}
+
+.getStart button h3{
+    font-size: 1rem;
+    font-weight: bolder;
+    color: white;
+}
+
+.section-2{
+    display: flex;
+    margin: 8px 0;
+    background-color: black;
+    justify-content: center;
+    padding: 95px 155px;
+    height: 330px;
+    gap: 80px;
+}
+
+.section-2 h1{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+
+.section-2 p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+}
+
+.section-2-text{
+    align-self: center;
+}
+
+.vid-1{
+    position: relative;
+}
+
+.vid-1 img{
+    width: 530px;
+    position: absolute;
+    top: -83px;
+    left: -70px;
+}
+
+.vid-1 video{
+    width: 456px;
+}
+
+.section-3{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 68px 118px;
+}
+
+.section-3-img img{
+    width: 508.078px;
+}
+
+.section-3-text h2{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+
+.section-3-text p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;   
+}
+
+.section-4{
+    background-color: black;
+    height: 510px;
+    margin: 8px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 165px;
+    position: relative;
+}
+
+.section-4-text h2{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+
+.section-4-text p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;   
+}
+
+.section-4-img{
+    position: relative;
+}
+
+.section-4-img img{
+    position: relative;
+    width: 500px;
+    z-index: 2;
+}
+
+.section-4-img video{
+    position: absolute;
+    width: 304px;
+    left: 95px;
+    top: 45px;
+}
+
+.section-5{
+    background-color: black;
+    margin: 8px 0;
+    padding: 80px 193px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-5-text h2{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+
+.section-5-text p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;   
+}
+
+.section-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding-bottom: 40px;
+}
+
+.section-6 h2{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    padding: 45px 30px;
+}
+
+.faqBox span{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.faqBox{
+    display: flex;
+    width: 72vw;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+    background-color: #303030;
+    padding: 15px 25px;
+    margin: 5px;
+}
+
+.faqBox:hover{
+    background-color: #4b4b4b;
+    cursor: pointer;
+}
+
+.section-6 > p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+    padding: 45px 0;
+    padding-bottom: 23px;
+}
